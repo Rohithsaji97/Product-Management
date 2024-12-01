@@ -1,0 +1,100 @@
+body {
+  background-color: black !important;
+}
+
+.login-box {
+  background-color: rgba(10, 34, 122, 0.592);
+  width: 50%;
+  height: 500px;
+  margin: 6% 25% 0% 25%;
+  padding: 2.5%;
+  border-radius: 15px;
+}
+
+.avatar {
+  margin: 0% 0% 5% 45%;
+}
+
+:where(.css-dev-only-do-not-override-apn68).ant-form-item
+  .ant-form-item-label
+  > label {
+  color: white !important;
+  font-size: 20px !important;
+}
+
+:where(.css-apn68).ant-form-item .ant-form-item-label > label {
+  color: white !important;
+  font-size: 20px !important;
+}
+
+.table-box {
+  background-color: rgba(10, 34, 122, 0.592);
+  margin: 5% 0% 2.5% 12.5%;
+  width: 75% !important;
+  padding: 5%;
+  border: 10px solid white;
+  border-radius: 15px;
+}
+
+.table-head {
+  text-align: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 35px;
+  width: 200px;
+  padding: 2.5% !important;
+  color: rgb(10, 34, 122) !important;
+  border: 6px solid black !important;
+  /* background-color: black !important; */
+}
+
+.modal-box {
+  margin: 1.25% 0% 0% 0%;
+}
+
+.modal-header {
+  background-color: rgb(5, 17, 63);
+  color: white;
+  border: 5px solid white;
+}
+
+.btn-close {
+  background-color: white !important;
+}
+
+.shop-icon {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.262);
+  font-size: 75px;
+  padding: 1.5%;
+  margin: 0% 0% 3% 45%;
+  border-radius: 10px;
+}
+
+.sub-btn {
+  background-color: white !important;
+  color: black !important;
+  border: 2px solid black !important;
+  border-radius: 15px !important;
+  width: 50%;
+  margin: 5% 0% 0% 22.5%;
+  font-size: 20px !important;
+}
+
+.sub-btn:hover {
+  color: rgb(18, 96, 148) !important;
+  border-color: rgb(18, 96, 148) !important ;
+}
+
+.back {
+  color: white;
+  position: absolute;
+  left: 6%;
+  top: 6%;
+  font-size: 60px;
+  padding: 0.75%;
+}
+
+.back:hover {
+  background-color: rgba(255, 255, 255, 0.148);
+  border-radius: 10px;
+}
